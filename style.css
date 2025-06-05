@@ -13,7 +13,6 @@
   --surface-color-hover: rgba(255, 255, 255, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
-  
 }
 
 /* Variáveis do Light Mode */
@@ -41,7 +40,8 @@ body * {
 
 /* Conteúdo do Site */
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
